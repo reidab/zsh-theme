@@ -1,5 +1,5 @@
 PROMPT='
-%{$fg[magenta]%}%m %{$fg[white]%}:%(?.%).() %{$fg[blue]%}%d$(git_prompt_info) ${fg[yellow]}$(~/.rvm/bin/rvm-prompt)
+%{$fg[magenta]%}%m %{$fg[white]%}:%(?.%).() %{$fg[blue]%}%d$(git_prompt_info) ${fg[yellow]}$(rbenv_prompt_info)
 %{$fg[green]%}%n %{$fg[cyan]%}➜%{$fg[white]%} '
 
 # RPROMPT='%{$fg_bold[blue]%}  %{$fg_bold[green]%}%t %{$fg[white]%}'
